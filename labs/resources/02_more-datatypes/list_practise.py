@@ -46,4 +46,15 @@ for i in bucket_list_six_elements:
                 -> [from:end]
                 -> this works with tuples and strings
         -> you can mutate a list
+        -> tuples are immutable and use (), lists aren't immutable
+            -> you can change the elements of a list
     """
+
+a = [1,2,3]
+b = [1,2,3]
+a == b #True
+a is b #False, they are different objects
+#you can change elements of / in them, because they are lists
+#you can't do this with tuples:
+b[0] = 1 #tuples are immutabl, but you can access elements from them like this [][]
+    #in x part of x element
