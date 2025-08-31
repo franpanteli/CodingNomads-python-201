@@ -6,3 +6,9 @@
 # their input is a duplicate and deduct a point.
 # If the user loses 5 points, quit the program.
 # They win if they manage to create a set that has more than 10 items.
+while True:
+    number = int(input("Please enter an integer: ")) #int is a class
+    if type(number) == int:
+        print("That's an integer")
+    else:
+        continue
