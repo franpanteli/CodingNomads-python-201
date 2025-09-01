@@ -10,35 +10,24 @@
 dict_1 = {"a": 1, "b": 2, "c": 3}
 dict_2 = {"a": 2, "c": 4 , "d": 2}
 
-#separate the dictionary one keys from values in separate lists
-dict_1_keys = []
-dict_1_values = []
+#we need to use for loops, to iterate over the two dictionaries
+keys = []
+values = []
 
-for i in dict_1:
-    dict_1_values.append(dict_1[i])
-    dict_1_keys.append(i)
+for key in dict_1:
+    if key in dict_2:
+        keys.append(key)
+        values.append(dict_1[key] + dict_2[key])
+    if key not in dict_2:
+        keys.append(key)
+        values.append(dict_1[key])
 
-print("dict_1_keys: ", dict_1_keys)
-print("dict_1_values: ", dict_1_values)
+for key in dict_2:
+    if key not in dict_1:
+        keys.append(key)
+        values.append(dict_2[key])
 
-#do the same with the second dictionary
-dict_2_keys = []
-dict_2_values = []
-
-for i in dict_2:
-    dict_2_keys.append(i)
-    dict_2_values.append(dict_2[i])
-
-print("dict_2_keys: ", dict_2_keys)
-print("dict_2_values: ", dict_2_values)
-
-
-
-
-
-
-
-
-
+result = dict(zip(keys, values)) #we zip the two lists and then make this into a dictionary
+print("result =", result)
 
 
