@@ -81,4 +81,9 @@ for dictionary in office:
             -> <: <- this is left align
             -> - len(LASTNAME) <- this is the length of the longest name in the list
             -> -2 <- we are taking two away, because of a space and a comma
+            -> {max_name_length - len(LASTNAME) - 2}
+                -> this is the width of the column
+                -> everything inside this is left-aligned, this is done by using <
+                -> this is the total width we want
+                -> this is the maximum length which we want in the padding of spaces around the element
     """
