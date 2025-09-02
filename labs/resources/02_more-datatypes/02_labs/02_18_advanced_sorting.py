@@ -56,6 +56,6 @@ result_list = sorted(list_of_tuples, key=lambda list_element: list_element[1])
 print("input_dict =",input_dict)
 print("result_list =",result_list)
 
-    """lambda functions
+"""lambda functions
         -> they are like list comprehensions, but for functions
     """

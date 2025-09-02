@@ -6,3 +6,6 @@
 # but try to do it using a list comprehension.
 
 word = "codingnomads"
+list = [i for i in word]
+# list = list(word)
+print("Output: ",list)
