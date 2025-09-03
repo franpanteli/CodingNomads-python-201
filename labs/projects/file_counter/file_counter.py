@@ -24,6 +24,14 @@ values = [files_on_desktop.count(i) for i in keys]
 dictionary = dict(zip(keys,values))
 print("Desktop file summary: ", dictionary)
 
+#write the desktop data to a file
+file_out = open("Desktop file summary.txt","w") #"w" has to be in quotation marks
+file_out.write("Desktop file summary: "+str(dictionary))
+file_out.close()
+    #this has to be done before the files are moved, or otherwise it will just print out one txt file
+    #if it already exists, then it won't be overwritten, or anything added to it
+    #it must be deleted each time the script is run
+
 for i in dictionary:
     if dictionary[i]>5:
 
@@ -36,5 +44,6 @@ for i in dictionary:
             if file.suffix == i:
                 new_file_path = new_folder_name / file.name
                 file.rename(new_file_path)
+
 
 
