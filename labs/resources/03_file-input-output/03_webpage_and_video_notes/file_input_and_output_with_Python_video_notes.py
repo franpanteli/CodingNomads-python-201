@@ -1,0 +1,32 @@
+"""
+    -> we are iterating through files in a directory
+    -> if the word in the list starts with something, then it is appended to another list in the .py file
+    -> this list is then printed
+    -> to do this, he is using a context manager, which is the `with` keyword, to open the file
+    -> he writes an empty list which iterates through the words in the file which are read in
+    -> iterating through the words in the imported file
+        -> if the word starts with something specific, it gets appended to a list
+        -> that list is then printed
+        -> this means that everything that starts with a string gets printed
+    -> then writing this to a file
+        -> this creates an empty list each time the script is run
+        -> it creates a list out of the files, appends it to the words list, then create a new list, goes through imported words and adds them to the new list-
+        -> running the script puts it through that process each time
+        -> he then runs the code
+            -> we have an error, which he fixes
+            -> in Python3, tools > Python3
+            -> f strings are new in Python 3
+    -> he creates an f string and parses the file list through it
+        -> he then wants to write the output of this in one list
+        -> for that list to be one big string that can be written to the file
+        -> for every element in the list to be on its own flie
+    -> he looks in the documentation for the right method to use
+        -> this involves finding an article on stack overflow
+        -> he takes a method which someone has tried, and then adds it into the code, to try it
+            -> he then looks at the output of this, confirms it is what we want and adds it into the code
+            -> the output of this is in the form of a txt file
+    -> reading the information into the file .py file, editing it and then reading that out into another file or into the console
+        -> this works for altering data from files, or in this example, by working on larger portions of text
+        -> considering that Python can read files from the desktop, this also works with operating systems
+    -> this requires, opening the file and writing to or reading from it
+"""
