@@ -9,6 +9,7 @@ from pathlib import Path
 
 # The path where we want to create the new folder
 folder_directory = pathlib.Path('/Users/francescapanteli/Desktop')
+    #this is an absolute path, which means the script can be run from anywhere
 
 
 files_on_desktop = []
@@ -30,7 +31,8 @@ dictionary = dict(zip(keys,values))
 print("Desktop file summary: ", dictionary)
 
 #write the desktop data to a file
-file_out = open("Desktop file summary.txt","a") #"w" has to be in quotation marks
+file_out = open("Desktop file summary.csv","a") #"w" has to be in quotation marks
+    #this was changed to a csv file, rather than a txt file, during the third module exercises of the course
     #change this to append because we are counting how the number of files on the desktop changes over time
 file_out.write("Desktop file summary: "+str(dictionary))
 file_out.write("\n")
