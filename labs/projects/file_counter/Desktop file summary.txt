@@ -1,0 +1,7 @@
+Desktop file summary: {'.png': 14}
+Number of pngs on desktop: 14
+Number of folders on the desktop: 4Desktop file summary: {'.png': 1}
+Number of pngs on desktop: 1
+Number of folders on the desktop: 5Desktop file summary: {'.png': 1}
+Number of pngs on desktop: 1
+Number of folders on the desktop: 5
