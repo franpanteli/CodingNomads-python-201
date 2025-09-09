@@ -1,0 +1,20 @@
+"""
+-> *args and **kwargs
+    -> ONE HAS TWO STARS AND THE OTHER HAS ONE
+    -> variable-length inputs
+    -> * means variable length
+"""
+
+def make_pizza(*kwargs): #for them to enter as many different pizza toppings as they want
+    for topping in args:
+        print(f"{topping}")
+
+make_pizza()
+#make_pizza('tomatoes')
+make_pizza('tomatoes', 'mushrooms', 'olives', 'garlic')
+#it doesn't matter how many arguments you have, they are stored inside a tuple
+
+"""**kwargs ARE STORED IN A DICTIONARY AND *args ARE STORED IN A TUPLE
+    -> dictionaries are immutable, but the values they store can be mutable
+    -> THIS MEANS THAT THE .itema() METHOD MUST BE USED WHEN ITERATING THROUGH THE ELEMENTS IN A FUNCTION WHERE **kwargs IS USED 
+    """
