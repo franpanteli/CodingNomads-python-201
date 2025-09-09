@@ -3,3 +3,11 @@
 # is why your function should be able to take an arbitrary amount of
 # keyword arguments, and display them all in a list form with some 
 # introductory information.
+
+def nicley_printed_real_estate_advert(*args):
+    return_list = []
+    for info in args:
+        return_list.append(info)
+    print("Condensed information about the real estate advert:", return_list)
+
+nicley_printed_real_estate_advert("wooden floors", "furnished","houseplants included")

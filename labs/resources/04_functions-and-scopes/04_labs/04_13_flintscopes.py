@@ -6,6 +6,8 @@
 
 def shout(name):
     loud_name = name.upper()
+    return loud_name
 
-shout("wilma")
-print(loud_name)
+output_variable = shout("wilma")
+print(output_variable)
+
