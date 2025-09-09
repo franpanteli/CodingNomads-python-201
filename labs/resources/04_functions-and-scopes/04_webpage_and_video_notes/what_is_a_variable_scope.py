@@ -1,0 +1,23 @@
+"""What is a variable scope video notes
+    -> variable and function scope
+    -> think of scopes as a box inside a box
+    -> when you write functions, you are making a new box in terms of the scope
+    -> he creates a global variable
+    -> trying to call a local variable globally won't work
+        -> unless you return the local variable when the function is defined
+    -> locals() <- TO ACCESS THE LOCAL SCOPE
+    -> global() <- TO ACCESS THE GLOBAL SCOPE
+        -> you can use a boolan statement, like "glob" in locals()
+        -> these are the global and local dictionaries
+        -> they store the values of variables defined in the .py file
+        -> you can define a variable in the inner scope which has the same name as the variable in the global scope
+            -> this will overwrite the value of the variable in the global scope
+    -> he defines a name variable, with a string value
+        -> then he accesses the value of the global scope locally, inside a function definition
+        -> then he overrides it, by defining a variable with the same name
+        -> the local one takes presidence
+        -> this stops you from accessing the global variable locally, because it's been overwritten
+    -> you can't call a local function globally
+        -> it's only defined in the local scope
+        -> the global scope spills over into the local scope
+    """
