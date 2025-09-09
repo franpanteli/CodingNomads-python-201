@@ -24,6 +24,10 @@ def my_enumerate(list):  # add your arguments
 
 my_enumerate(list)
 
+for index, value in my_enumerate(list):
+    print("Index:", index)
+    print("Value:", value)
+
 
 
 
