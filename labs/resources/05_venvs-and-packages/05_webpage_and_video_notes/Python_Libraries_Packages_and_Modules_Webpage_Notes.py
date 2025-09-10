@@ -1,0 +1,22 @@
+    """-> Python libraries, packages and modules
+        -> the standard library
+            -> mypy is an external module, which first has to be installed
+            -> this is for checking that function inputs have the right type when called in a .py file
+            -> there are third-party packages from external sources
+            -> the standard library is the package library that does not require users to install them
+            -> these packages have beem used when importing pathlib and random
+        -> third-party packages
+            -> PyPI is a repository where users can upload their own code as a package
+            -> this is the repository for external Python packages
+            -> pip is what installs these packages
+        -> Python pip install packages
+            -> pip stands for pip installs packages
+            -> syntax for this: python3 -m pip install <package name>
+            -> example: python3 -m pip install mypy
+            -> YOU DON'T WANT TO INSTALL PACKAGES SYSTEM-WIDE, SINCE THIS CAN LEAD TO VERSION CLASHES
+                -> THIS IS WHY IT IS BETTER TO INSTALL THEM IN A VIRTUAL ENVIRONMENT
+        -> summary
+            -> Python comes with built-in packages
+            -> packages from PyPI can also be installed, by using pip
+            -> it is better to install packages in a virutal environment, to avoid version clashes
+    """
