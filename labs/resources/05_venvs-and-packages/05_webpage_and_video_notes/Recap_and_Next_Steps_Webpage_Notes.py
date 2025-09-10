@@ -1,0 +1,38 @@
+"""-> Recap and next steps webpage notes
+    -> what is next
+        -> virtual environments
+        -> learnt about so far
+            -> installing and understanding Python
+            -> variables and values
+            -> common datatypes
+            -> loops / lists / list comprehensions
+            -> membership operators
+            -> using input()
+            -> functions with arguments and return values
+            -> docstrings and type hinting
+            -> file I/O
+    -> projects
+        -> file renamer
+        -> CLI games <- guess my number, hangman, adventure role-playing game
+    -> world building (soft skills)
+        -> growth mindset
+        -> IDEs
+        -> automation and reading error messages
+        -> absolute vs relative paths
+        -> Bash in the CLI
+    -> next steps
+        -> topics which aren't Python specific, but which are related
+        -> building a project with Python to interact with data over the internet
+        -> going into the web
+        -> retreiving data from the internet and including it in programs
+        -> third-party Python packages
+        -> virtual environments which compartmentalise the development environment
+        -> environment variables for sensitive information
+        -> APIs to get data from the internet
+        -> databases to store and retreive data
+        -> debugging progranms
+    -> next
+        -> this module is about general concepts which relate to Python
+        -> external Python packages and virtual environments (VIMs)
+    """
+
