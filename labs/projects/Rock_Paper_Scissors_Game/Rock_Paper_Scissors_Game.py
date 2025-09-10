@@ -27,3 +27,65 @@ def get_hand(hand):
     pass
 ```
     """
+
+#import random module
+import random
+
+def get_hand(): #this function asks the user for a number and outputs the number as a string
+
+    user_input = input("Enter a number between 0-2, this will represent your hand: ")
+    # 0 = scissor, 1 = rock, 2 = paper
+    if int(user_input) == 0:
+        user_output = "scissor"
+
+    if int(user_input) == 1:
+        user_output = "rock"
+
+    if int(user_input) == 2:
+        user_output = "paper"
+
+    computer_hand = random.randint(0, 2)
+
+    if computer_hand == 0:
+        computer_output = "scissor"
+
+    if computer_hand == 1:
+        computer_output = "rock"
+
+    if computer_hand == 2:
+        computer_output = "paper"
+
+    return user_output, computer_output #example output ('paper', 'paper'), the output of this function is a tuple
+
+def determine_winner():
+
+    tuple = get_hand()
+    user_output = tuple[0]
+    computer_output = tuple[1]
+
+    #initialise booleans
+    user_wins = False
+    tie = False
+
+    #when the user wins
+    if (user_output == "rock") and (computer_output == "scissor"):
+        print(f"The user wins. The user guessed {user_output} and the computer guessed {computer_output}.")
+        user_wins = True
+
+    if (user_output == "paper") and (computer_output == "rock"):
+        print(f"The user wins. The user guessed {user_output} and the computer guessed {computer_output}.")
+        user_wins = True
+
+    if (user_output == "scissor") and (computer_output == "paper"):
+        print(f"The user wins. The user guessed {user_output} and the computer guessed {computer_output}.")
+        user_wins = True
+
+    #tie cases
+    if user_output == computer_output:
+        print(f"Tie! The user and computer both guessed {user_output}.")
+        tie = True
+
+    if (user_wins == False) and (tie == False):
+        print(f"The user looses. You guessed {user_output} and the computer guessed {computer_output}.")
+
+determine_winner()
