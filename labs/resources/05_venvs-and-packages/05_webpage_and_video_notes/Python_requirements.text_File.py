@@ -1,0 +1,34 @@
+"""requirements.txt File Video Notes
+    -> outline
+        -> Python requirements.txt file
+        -> this is for installing extermal dependencies for a project in a venv
+            -> virtual environment
+            -> compared to a virtual machine, this does not have an operating system
+            -> we are installing the dependencies in the virtual environment and not on the local machine, to avoid clashes in their versions
+            -> to access the venv, it first has to be made, which is done in a separate folder and in a Bash CLI
+                -> it is then activated and dependencies are installed
+                -> we know it is being accessed in the terminal, because a command is used for this in Bash, and when it is done, then ()(env) will show in the CLI (terminal)
+    -> previously <- installing packages from pipy in the venv (virtual environment)
+        -> pip is used to install modules with pipy
+        -> pipy is like GitHub, but for Python modules
+        -> Django is a Python module
+    -> we can get rid of the venv and recreate it
+        -> a virtual environment is like a virtual machine
+        -> the virtual machine can be accessed, coppied in an iso and deleted
+    -> virtual environments (venvs) should be recreatable
+        -> he uses deactivate <- this deletes the dependencies
+        -> he then uses ls to show the directory with the venv with it
+    -> he then creates a new virtual environment and activates it:
+        -> python -m venv venv
+        -> source relative_path_to_the_venv <- activates the venv
+        -> the venv has been created in a directory
+            -> there is a directory for the venv, which is called venv
+            -> this is stored inside another directory
+            -> this is what he is cd'd into, to access the venv in the terminal, when it shows this ()()
+        -> python -m pip freeze <- to check the packages in the venv
+    -> to recreate the envrionment we had before, use the requirements.txt file
+        -> this stores the dependencies for the project
+        -> these are the modules which we want to install in the Python project (external code)
+        -> python -m pip install -r requirements.txt <- for pip to read a file
+        -> this installs the three packages
+    """
