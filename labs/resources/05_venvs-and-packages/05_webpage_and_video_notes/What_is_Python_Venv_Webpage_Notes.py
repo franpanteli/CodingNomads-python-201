@@ -1,0 +1,32 @@
+"""What is Python Venv webpage notes
+    -> creating a Python virtual environment
+    -> you can create the folder structure for a virtual environment using python3 -m venv your_venv_name
+    -> and then de-activate it with another command
+    -> python3 -m venv your_venv_name <- to create a Python virtual environment
+        -> venv is a built-in Python module, for creating virtual environments
+        -> your_venv_name is the name of the virtual environment
+        -> this name is then used for activating it
+        -> venv is a virtual environment module
+        -> this is a Bash command
+    -> you create and then activate the virtual environment
+    -> it looks for executables
+    -> we want the local installation of pip, not the global one on the machine
+    -> python3 -m venv venv <- to create a virtual environment
+        -> venv is the name of the virtual environment
+        -> this creates a folder with different (standard) .py files in it
+    -> activating the virtual environment
+        -> YOU INSTALL, ACTIVATE AND THEN DEACTIVATE THE VIRTUAL ENVIRONMENT
+        -> source venv/bin/activate <- to enter the virtual environment
+            -> source is the source of the venv
+            -> venv is virtual environment
+        -> there is an activation script
+        -> () is shown in the terminal shell when the venv is activated
+            -> this is how you know when you are inside it
+            -> it is like a new folder in a GitHub repository
+            -> IT LOOKS LIKE THIS WHEN IT IS ACTIVATED, IN THE TERMINAL: (venv) (base)
+        -> external packages are installed inside the venv
+        -> IT NEEDS ACTIVATING EVERY TIME IT IS USED
+        -> python3 -m pip install mypy <- to install pip into the activated environment
+            -> these packages are usable the next time the venv is activated
+    -> deactivate <- to deactivate the venv (virtual environment)
+    """
