@@ -29,4 +29,17 @@
         -> python3 -m pip install mypy <- to install pip into the activated environment
             -> these packages are usable the next time the venv is activated
     -> deactivate <- to deactivate the venv (virtual environment)
+    -> using an venv with an IDE
+        -> Pycharm automatically creates one when you make a new project
+            -> this is a new venv
+        -> IDEs can make working with venvs easier
+        -> you know you are in a venv when the Bash CLI looks like this ()()
+        -> environment variables <- next
+            -> to stop sensitive information leaking to version control
+    -> summary
+        -> python3 -m venv venv <- to create the venv
+        -> source venv/bin/activate <- to activate the venv
+        -> deactivate <- to deactivate the venv
+            -> this is done after the project is worked on
     """
+
