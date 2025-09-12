@@ -1,0 +1,21 @@
+"""Install Python Packages Video Notes
+    -> installing packages in a virtual environment
+    -> python -m pip install django
+        -> DJANGO IS A PYTHON MODULE
+        -> IT'S A FRAMEWORK, WHICH IS CONTAINED BY A MODULE
+        -> he installs this in the venv (virtual environment)
+    -> python -m pip freeze
+        -> it prints out three external packages which are installed in the environment, in the terminal
+    -> python -m pip list
+        -> this prints out the package and the version installed in a table in the temrinal
+    -> to save the dependencies into a file
+        -> python -m pip freeze
+            -> this is like git commit -m "message" - with the message option
+        -> this output can then be piped to a file
+            -> this is done via
+                -> python -m pip freeze > requirements.txt
+                    -> thsi file contains the same output as before
+                    -> its values can be accessed via cat requirements.txt
+                    -> concatenate
+    -> creating, activating and deactivating the virtual environment <- next lesson
+    """
