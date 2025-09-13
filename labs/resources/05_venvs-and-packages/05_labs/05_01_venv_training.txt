@@ -1,9 +1,55 @@
 Create a new folder. Inside of that folder:
 1. Create a new Python virtual environment
+python3 -m venv 5_01_virtual_environment_1
+    -> create a new Python virtual environemt
+
 2. Activate the virtual environment
+source relative_path_of_activate_folder
+    -> activate it
+    -> this is like the index.html file, but the Bash file which is at the source of the project
+
 3. Install three external packages in the virtual environment.
+python3 -m pip install mypy
+python3 -m pip install numpy
+python3 -m pip install requests
+    -> install Python packages
+
 4. Freeze the installed packages to a `requirements.txt` file.
+python -m pip freeze
+cat requirements.txt
+    -> see the packages which are installed in the venv (virtual environment)
+    -> store them in a requirements.txt file (this was created manually)
+        -> the contents of this command: python -m pip freeze, in the terminal was pasted into the reqiurements.txt file
+        -> this contained the packages which were installed in the venv (virtual environment)
+
 5. Deactivate the virtual environment.
+deactivate
+
 6. Delete the virtual environment.
+This is from following the video:
+    rm -rf 5_01_virtual_environment_1/
+    -> the name of the folder
+    -> this removed the folder which contained the venv (virtual environment)
+    -> the requirements.txt file was stored outside of this
+    -> the venv folder was in another folder, and in that same folder was the requirements.txt file
+    -> folder > requiremenets.txt and venv
+
 7. Create a new virtual environment.
+python -m venv venv
+    -> create new virtual environment
+    -> venv is the name of the virtual environment, this is the name of the folder which will contain it
+source venv/bin/activate
+    -> activate the venv
+python -m pip freeze
+    -> nothing is there
+    -> show the names of the modules which are installed in the venv (virtual environment)
+python -m pip list
+    -> nothing is there
+
+
 8. Install the packages that you recorded in the `requirements.txt` file.
+python -m pip install -r requirements.txt
+    -> install the modules which the requirements.txt file contains into the new venv
+python -m pip freeze
+    -> the same files as in the previous directory are now there
+    -> show that these modules are now installed

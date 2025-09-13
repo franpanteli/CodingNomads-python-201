@@ -4,3 +4,20 @@ Create two separate virtual environments in two different folders.
   Then deactivate the first virtual environment.
 - Repeat the process with your second venv, but install Django 2.2 instead.
 - Compare the two `requirements.txt` files and post their content below.
+
+First requirements.txt file:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Django==2.2.28
+pytz==2025.2
+sqlparse==0.5.3
+
+Second requirements.txt file:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Django==1.8
+
+Comparison of first and second requirements.txt files:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The first reqreuiements.txt file has two extra modules installed: pytz and sqlparse. The second requirements.txt file also has a different version of the django module installed on it.
