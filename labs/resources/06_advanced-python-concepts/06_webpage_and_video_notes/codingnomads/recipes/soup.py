@@ -23,3 +23,6 @@ print(i.carrot) #carrot is an attribute of ingredients.py
     -> next <- importing our own modules (.py files) with relative paths 
         -> that aren't in the same folder that they are being called in 
 """
+
+def make_soup(argument):
+    print("The argument is", argument)
