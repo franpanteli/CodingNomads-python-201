@@ -2,9 +2,10 @@
     #using code inside code
 # from ingredients.py import carrot #THIS RETURNS AN ERROR MESSAGE
 # from ingredients import carrot #from the ingredients.py file, import the value of the `carrot` variable
-import ingredients as i #THIS IS AN ALIAS IMPORT
+import codingnomads.ingredients as i #THIS IS AN ALIAS IMPORT
     #alias meaning, another word for the same thing
     #this import preserves the namespace of the package
+    #. corresponds to each new directory in this
 print(i.carrot) #carrot is an attribute of ingredients.py
 #ANOTHER WAY OF DOING THIS, WHICH DOESN'T INVOLVE IMPORTING THE ENTIRE .py FILE
 
@@ -26,3 +27,14 @@ print(i.carrot) #carrot is an attribute of ingredients.py
 
 def make_soup(argument):
     print("The argument is", argument)
+
+    # cooked potato
+    # carrot
+
+    """
+        -> even if you only import the carrot variable, it will still print out cooked potato and carrot 
+        -> the CLI prints cooked potato, but Python hasn't imported the potato variable 
+        -> importing code from a module executes the whole script 
+        -> this runs and can produce some unexpected output
+        -> PYTHON RUNS THE ENTIRE SCRIPT WHEN A VARIABLE IS IMPORTED
+    """
