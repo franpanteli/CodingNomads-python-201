@@ -1,4 +1,5 @@
 # cook.py
 soup = "pumpkin soup"
 
-print(f"{soup} is soooo good!")
+if __name__ == "__main__": #both name and main have dunders
+    print(f"{soup} is soooo good!")

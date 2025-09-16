@@ -3,4 +3,6 @@
 # letters = []
 # for letter in 'suchalongword':
 #     letters.append(letter)
-# print(letters)
+# print(letters) #['s', 'u', 'c', 'h', 'a', 'l', 'o', 'n', 'g', 'w', 'o', 'r', 'd']
+
+print([i for i in 'suchalongword'])
