@@ -63,13 +63,21 @@ actor = sqlalchemy.Table('actor', metadata, autoload_with=engine) #this creates 
         -> results are fetched, by using the fetchall() method 
 """
 
-query = sqlalchemy.select(actor) #this is equivalent to the sql: SELECT * FROM the actor table object we just created
+query = sqlalchemy.select(actor).where(actor.columns.first_name == 'PENELOPE') #this is equivalent to the sql: SELECT * FROM the actor table object we just created
 result_proxy = connection.execute(query) #execute the query defined in the previous line
     #this is the connection obejct
     #you can't just print this out, you have to use the fetchall() or fetchmany() method, and then print the results of this
+    #we are filtering the elements in the database by those who have a first name of penelopie
+
+"""
+    [(1, 'PENELOPE', 'GUINESS', datetime.datetime(2006, 2, 15, 4, 34, 33)),
+    (54, 'PENELOPE', 'PINKETT', datetime.datetime(2006, 2, 15, 4, 34, 33)),
+    (104, 'PENELOPE', 'CRONYN', datetime.datetime(2006, 2, 15, 4, 34, 33)),
+    (120, 'PENELOPE', 'MONROE', datetime.datetime(2006, 2, 15, 4, 34, 33))]
+"""
 
 result_set = result_proxy.fetchall() #fetch the results of the database query stored in the `result_proxy` variable
-# pprint(result_set) #print out the result #this uses the pretty print module, to print out the information on multiple lines, rather than one
+pprint(result_set) #print out the result #this uses the pretty print module, to print out the information on multiple lines, rather than one
     #this can then be used as any other Python object
     #we can use this to iterate through each of the elements in the database, for example
     #fetchmany() is used for large datasets, instead of fetchall()
@@ -320,4 +328,3 @@ result_set = result_proxy.fetchall() #fetch the results of the database query st
                 -> use the sqlalchemy module to perform the sum function on the films collunm 
                 -> this function calculates the length of entries in this column of the database 
 """
-
