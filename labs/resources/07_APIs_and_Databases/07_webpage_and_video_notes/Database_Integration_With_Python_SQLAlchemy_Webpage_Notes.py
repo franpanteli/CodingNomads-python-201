@@ -278,4 +278,46 @@ result_set = result_proxy.fetchall() #fetch the results of the database query st
 #  (199, 'JULIA', 'FAWCETT', datetime.datetime(2006, 2, 15, 4, 34, 33)),
 #  (200, 'THORA', 'TEMPLE', datetime.datetime(2006, 2, 15, 4, 34, 33))]
 
+"""
+    -> filtering results 
+        -> filtering the results from the SELECT statement 
+        -> SQLALCHEMY IS FOR INTERACTING WITH DATABASES IN PYTHON 
+        -> WHERE 
+            -> in SQL: SELECT * FROM sakila.actor WHERE first_name = "PENELOPE";
+                -> select all from the actors table where the first name is PENELOPE
+            -> in sqlalchemy: sqlalchemy.select(actor).where(actor.columns.first_name == 'PENELOPE') 
+                -> select the actors table where the first name is PENELOPE
+        -> IN 
+            -> SQL: SELECT * FROM sakila.actor WHERE first_name IN ("PENELOPE", "JOHN", "UMA");
+                -> select all from the actors table, where the first name is in this list of names 
+            -> sqlalchemy: sqlalchemy.select(actor).where(actor.columns.first_name.in_(["PENELOPE", "JOHN", "UMA"]))
+                -> select from the actors table where the first name is in this list (the same meaning as in SQL)
+        -> AND, and AND NOT
+            -> in SQL
+                -> SELECT * FROM sakila.film WHERE length > 60 AND rating = "PG";
+                    -> select all of the elements from this database where the length is > 60 and the rating is "PG"
+                -> SELECT * FROM sakila.film WHERE length > 60 AND NOT rating = "PG";
+                    -> this is the same as the previous statement, but it uses AND NOT and not AND 
+            -> in Python sqlalchemy 
+                -> sqlalchemy.select(film).where(sqlalchemy.and_(film.columns.length > 60, film.columns.rating == "PG"))
+                    -> select a film where the database and the length of the element in that column is more than 60, and the rating is PG
+                -> sqlalchemy.select(film).where(sqlalchemy.and_(film.columns.length > 60, film.columns.rating != "PG"))
+                    -> unlike in SQL, THESE SELECT STATEMENTS IN PYTHON ARE SET EQUAL TO VARIABLES 
+                    -> this is the same as in the previous statement, but with != instead of ==
+                    -> it is a boolean statement 
+                -> SQLALCHEMY IS A PYTHON MODULE FOR IMPORTING DATABASES IN SQL
+        -> ORDER BY 
+            -> SQL: SELECT * FROM sakila.film ORDER BY replacement_cost ASC;
+                -> select all of the columns from this database and order them by the values in the `replacement_cost` column
+            -> sqlalchemy: sqlalchemy.select(film).order_by(sqlalchemy.asc(film.columns.replacement_cost))
+                -> use the sqlalchemy Python module, select the elements in this column and order them by the value of the items in the replacement_cost column
+        -> SUM()
+            -> SQL: SELECT SUM(length) FROM sakila.film;
+                -> THE SUM FUNCTION RETURNS THE SUM OF A GIVEN FIELD 
+                -> select the sum of the length of elements from the film column in the Salkila database 
+            -> sqlalchemy: sqlalchemy.select(sqlalchemy.func.sum(film.columns.length))
+                -> this can be set equal to a variable in Python 
+                -> use the sqlalchemy module to perform the sum function on the films collunm 
+                -> this function calculates the length of entries in this column of the database 
+"""
 
