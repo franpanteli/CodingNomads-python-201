@@ -33,7 +33,7 @@ pprint(result['first_name']) #accessing the elements by their first name
 for result in result_proxy:
     print(f"First name: {result['first_name']})
     print(f"First name: {result['last_name']})
-    print() #now we are accessing the first and last names of the actors by accessing the column or key name 
+    print() #now we are accessing the first and last names of the actors by accessing the column or key name
 
 # result_set = result_proxy.fetchone() #this is the result proxy
 # print(result_set)
