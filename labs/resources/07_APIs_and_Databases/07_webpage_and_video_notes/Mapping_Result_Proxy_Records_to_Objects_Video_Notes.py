@@ -5,7 +5,7 @@
         -> THIS IS DEFINED IN ANOTHER .PY FILE, actor.py, WHICH IS IMPORTED IN ON THE SECOND LINE OF THE CODE
             -> WE IMPORT THE actor.py FILE AND THE Actor CLASS FROM THIS
     -> this is so that the information about the actors is can be stored inside an actor object (in this case, for this database - Sakila)
-        -> this allows us to define methods in the class definition, which can be used to operate on the Actor objects 
+        -> this allows us to define methods in the class definition, which can be used to operate on the Actor objects
 """
 
 import sqlalchemy
@@ -52,12 +52,6 @@ for result in result_proxy: #iterate through results and print out the first and
 
 for actor in actor_list:
     print(actor)
-
-
-
-
-
-
 
 
 
