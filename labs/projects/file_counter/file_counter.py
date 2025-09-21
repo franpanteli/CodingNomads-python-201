@@ -56,6 +56,3 @@ for i in dictionary:
             if file.suffix == i:
                 new_file_path = new_folder_name / file.name
                 file.rename(new_file_path)
-
-
-
