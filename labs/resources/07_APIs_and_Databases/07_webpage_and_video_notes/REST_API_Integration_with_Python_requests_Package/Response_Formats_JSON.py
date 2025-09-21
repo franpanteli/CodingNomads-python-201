@@ -1,4 +1,4 @@
-"""Response formats: JSON and XML
+"""Response formats: JSON
     -> types of data format
         -> JSON, HTML or XML formats
         -> HTML <- how information is returned to a user
