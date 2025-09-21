@@ -20,5 +20,12 @@ body = {
 response = requests.post(base_url, json=body)
 
 """Video Notes
-    -> 
+    -> making post requests with the post() method 
+    -> TO SEND INFORMATION AND CREATE A RECORD
+    -> WE USE A DICTIONARY FOR THIS 
+    -> this is named body 
+    -> we fill the dictionary with the record we want to create 
+    -> we are passing this information in as a parameter
+    -> the user we are adding isn't already in the database
+    -> after checking this, the user has been added
 """
