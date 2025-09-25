@@ -2,6 +2,7 @@
 # Write a script that moves all files with the .png extension
 # from one folder to another
 
+#import modules 
 # Import pathlib
 from pprint import pprint  #to pretty print (pprint) the dictionary
 import pathlib
