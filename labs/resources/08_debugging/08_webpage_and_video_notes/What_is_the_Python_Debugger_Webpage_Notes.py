@@ -9,5 +9,5 @@
             -> there are more errors the more code we have
             -> larger programs are more likely to have errors in them
         -> THERE ARE ENTIRE LIBRARIES JUST FOR DEBUGGING THE CODE
-    -> breakpoint() <- to add check-in points to the code, to use to inspect the script  
+    -> breakpoint() <- to add check-in points to the code, to use to inspect the script
 """
