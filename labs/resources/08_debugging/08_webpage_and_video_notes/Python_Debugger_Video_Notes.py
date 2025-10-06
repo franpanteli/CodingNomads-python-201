@@ -1,0 +1,30 @@
+"""Python Debugger Video Notes
+    -> debugging code
+    -> we want to add one to each element in the list
+    -> we are iterating through an old list, adding one and appending this to an old list
+    -> HE ADDS THE breakpoint() FUNCTION IN AT DIFFERENT PARTS OF THE CODE, TO DEBUG IT
+    -> you can manually debug
+    -> programs become more complex
+    -> you might not know where to put a print() statement, if debugging with this
+    -> from Python 3.7 onwards, the breakpoint() function is built-in
+        -> BEFORE THIS, YOU WOULD HAVE TO IMPORT A DEBUG STATEMENT
+    -> THE CODE STOPS WHERE THE breakpoint() FUNCTION WAS USED
+    -> you can ask it for the value of a different variable
+        -> pdb IS PYTHON DEBUGGER
+        -> IT JUMPS DOWN TO THE NEXT TIME THERE IS A breakpoint() FUNCTION BEING USED INTHE CODE
+        -> YOU JUST TYPE THE VARIABLE NAME INTO THE CLI
+    -> YOU CAN JUMP FORWARD TO THE NEXT BREAKPOINT, BY USING C FOR CONTINUE
+    -> it prints out the values of the different variables at the various time the breakpoint() funciton was used
+    -> p new_list <- TO PRINT OUT THE VARIABLE new_list WHEN THE breakpoint() FUNCTION WAS USED
+    -> c <- TO CONTINUE TO THE NEXT BREAKPOINT
+    -> he skips the for loop and goes to the next part in the iteration
+    -> he is inspecting the values of the different variables
+    -> THIS IS PDB, THE PYTHON DEBUGGER
+    -> p new_list <- to print out the value of new_list
+    -> n <- NEXT LINE, c <- NEXT BREAKPOINT, p <- PRINTING OUT THE VARIABLE NAME
+    -> you can inspect the program at different stages
+    -> setting the breakpoint and inspecting all the variables
+    -> once the programs are more complex, there are more variables there
+    -> there are nicer ways of looking at the debugging tool
+    -> you can do this in VSCode, as well as PyCharm 
+"""
