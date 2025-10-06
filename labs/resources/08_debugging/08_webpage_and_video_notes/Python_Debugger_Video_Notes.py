@@ -26,5 +26,5 @@
     -> setting the breakpoint and inspecting all the variables
     -> once the programs are more complex, there are more variables there
     -> there are nicer ways of looking at the debugging tool
-    -> you can do this in VSCode, as well as PyCharm 
+    -> you can do this in VSCode, as well as PyCharm
 """
