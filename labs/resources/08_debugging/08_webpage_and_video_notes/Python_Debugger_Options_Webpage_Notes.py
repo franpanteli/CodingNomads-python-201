@@ -12,5 +12,11 @@
             -> pudb <- a more visual CLI-based debugger
             -> web-pdb <- a visual debugger in the web browser, with a clickable UI
         -> this webpage is about these alternatives to pdb
-    -> colour
+    -> colourful CLI debugger with variable inspector
+        -> pdb (Python debugger) was the previous debugger we were using
+        -> this is pudb <- a more visual CLI-based debugger
+        -> this is a third-party package, which needs installing
+            -> python3 -m pip install pudb
+            -> this should be done in a virtual environment
+        -> 
 """
