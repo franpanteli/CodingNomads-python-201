@@ -9,4 +9,12 @@ Task:
     If you can solve it, post your solution as an answer to the question.
 
 Notes on task:
-    -> 
+    -> we want to go to a certain Stack Overflow page
+    -> we want to go through some of the newest options tagged Python
+    -> we want to get one of the questions working in the local IDE
+        -> this solution has to involve a code snippet
+        -> we want a question tagged Python, which involves a code snippet, that is recent
+    -> we want to attempt to solve the problem with the IDE
+    -> then to post the solution as an answer if we get it
+    -> none of the solutions actually contain any code snippets
+        -> one is having trouble installing a module / package
