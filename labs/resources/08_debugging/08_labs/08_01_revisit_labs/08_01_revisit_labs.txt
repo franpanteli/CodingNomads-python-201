@@ -1,0 +1,29 @@
+Task:
+    Pick at least three labs and do them again while actively using a debugger.
+
+    Revisit the labs that you had a hard time completing.
+    Start them over from scratch without looking at the solution.
+
+    Use a visual debugger, such as the one integrated in your IDE or any
+    of the other options mentioned in the course to while writing the
+    code for these tasks.
+
+    This will give you a chance to revisit challenging tasks, as well as
+    to train using your debugger tool.
+
+Notes on task:
+    -> we want to pick three labs we have done before, and do them while using a debugger
+    -> we can put these in another directory, chock them with breakpoint() function uses
+    -> we want to go to three of the harder labs, probably from the previous module
+    -> we want to do them from scratch without looking at the solution
+    -> suggested debuggers are an integrated one for the IDE
+        -> we can also use pdb for this
+    -> we are completing three tasks, which we previously did, in a new directory, but using pdb
+    -> we want to go to three previously challenging tasks, and do them with the debugger
+    -> steps
+        -> go through previous tasks and find three ones you found hard
+        -> go through and do them again, without looking at the solution
+        -> use pdb (the Python debugger), with the breakpoint() function when doing this
+    -> three solutions from the previous API exercises were taken, and the breakpoint() function was added into them in multiple places
+    -> these were placed into a separate directory (with_breakpoints), and the initial solutions without the use of the breakpoint function were added into the solutions directory 
+    -> these use the pdb debugger (Python debugger), which runs in the CLI when the code is executed 
