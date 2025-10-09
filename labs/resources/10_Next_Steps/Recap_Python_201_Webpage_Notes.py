@@ -1,0 +1,64 @@
+"""Recap: Python 201 Webpage Notes
+    -> outline
+        -> introduction
+        -> concepts learned (continued learning)
+        -> projects
+        -> next steps
+    -> we have completed the API project and pushed it to GitHub
+    -> this is the end of the second module in the python course
+    -> concepts learnt
+        -> using Python as a sceipting language
+        -> REPL (the IDE reading the code line by line)
+        -> variable types
+        -> pseudocode to plan the problem solving, with comments
+            -> documenting functions with docstrings
+            -> list comprehension (one for loop for a list, in a line)
+        -> different operators, for example the identity operator
+        -> loops, with break, continue and return
+        -> the input() statement and f strings
+        -> calling and writing functions
+        -> positional and keyword parameters
+            -> **kwargs, if we want a function to have an unlimited number of potential arguments
+            -> type hinting (-> snytax) to hint at the type of input a function should have
+        -> scopes when defining functions (local and global)
+        -> automating tasks with the pathlib module
+        -> file input and output
+            -> ehter using a context manager, or three lines, to open the file, edit it and close it
+            -> different modes for this, for example write / append (the difference is that one writes over the top of
+                the file contents
+            -> third-party Python packages
+        -> sqlalchemy to interact with SQL databases in Python
+            -> this is the equivalent of writing SQL statements in Python
+        -> the requests package for Python REST APIs
+    -> continued learning
+        -> soft skills
+            -> growth mindset
+            -> erro messages
+            -> different operating systems
+            -> IDEs
+            -> VIRTUAL ENVIRONMENTS
+                -> environment variables
+                -> PAIs
+            -> REFACTORING <- GOING BACK TO THE CODE AND IMPROVING IT
+                -> this is what we were doing with the capstone project from the first course; implementing API calls
+                    into it
+    -> projects
+        -> this knowledge can apply to a variety of projects
+        -> the file renamer project
+            -> this is an automation script
+        -> the CLI game projects
+            -> these include the ones from the first course
+                -> guess the number
+                -> hangman
+                -> dungeons and dragons, implementing the API call in versikon 4.0
+        -> refatroing the code from the first course, to enhance it with new convepts written
+            -> going back to the previous code we wrote
+    -> next steps
+        -> Python 301
+            -> this is the next course in the seires (but not the career track)
+        -> THIS COURSE IS ON OOP; EVERYTHING IS AN OBJECT IN PYTHON
+        -> it is an object-oriented language
+        -> we are going further into objects, attributes and methods
+            -> understanding the previous methods, etc, that we have used
+        -> testing and exception handling in Python 
+"""
