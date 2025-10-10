@@ -33,6 +33,8 @@
 # -> make a venv, install requests
 # -> get the tools for doing web requests
 import requests
+import json #json is a module, JavaScript Object Notation
+from pathlib import Path
 
 # -> an image API http://shibe.online/api/shibes
 
@@ -105,21 +107,83 @@ img_url = dict(requests.get("https://dog.ceo/api/breeds/image/random").json())["
     -> YOU NEED TO USE A VPN FOR THIS, OR IT WILL TELL YOU THAT YOU ARE MAKING TOO MANY REQUESTS TO THE API
         -> THIS IS WHY THE BREAKPOINT FUNCTION IS IMPORTANT, OR IT WILL MAKE A NEW REQUEST EVERY TIME THE CODE IS 
             RUN / TESTED IF THIS IS DONE WITH THE PRINT FUNCTION, MORE GET REQUESTS WILL BE MADE 
+    -> we have used a different API to him for this
+        -> HE CONTINUALLY STRESSES THE IMPORTANCE OF LOOKING AT THE API DOCUMENTATION
+        -> the APIs he uses in the tutorial are from 4 years ago / don't work / are outdated (using our own ones)
+        -> APIS REQUIRE AN INTERNET CONNECTION 
+        -> the best thing is to have our own APIs, that way they can't just be discontinued - with other programs we 
+            and other people write relying on them 
+        -> integrating the second API
+            -> he is inspecting the object which it returns 
+                -> this is a dictionary
+                -> how JSON is represented JavaScript Object Notation
+                -> we can just extract the author from the dictionary 
+                -> HE IS USING THE PYTHON DEBUGGER, PDB WITH THIS AGAIN 
+                    -> THIS IS DONE USING THE breakpoint() FUNCTION  
 """
 
-quote_url = requests.get("https://zenquotes.io/api/random").content
-print(quote_url)
+quote_url_extraction = json.loads(requests.get("https://zenquotes.io/api/random").content.decode('utf-8'))
+quote = f"\"{quote_url_extraction[0]["q"]}\" - {quote_url_extraction[0]["a"]}"
+    #this uses f string mini language
+# print(quote) #random quote
 # breakpoint()
-# print(type(quote_url))
-# print(quote_url['_content'].decode())
-
-
 
 
 # -> inspect those API
 # -> get image and quote
-# -> create a new file
+
+
 # -> create HTML structure
+
+"""
+    -> the HTML browser will autocomplete the HTML that we don't do right 
+    -> we are creating an HTML structure in Python
+        -> there are multiple ways of doing this, one is f strings
+    -> this creates an html structure for the webpage 
+    -> when the contents of this is pasted into an index.html file, it is a webpage with a paragraph of quote and a 
+        dog image
+        -> the dog image and the quote have been extracted from APIs
+        -> this contents is then written into an HTML file 
+"""
+
+html = f"<p>{quote}</p><img src='{img_url}'>" #this contains the contents of an html file
+# print(html)
+
+# -> create a new file
+
+"""
+    -> we are putting this under the desktop (home) 
+    -> to write the html to a new file 
+    -> we are also naming the HTML file 
+    -> we are creating the file directly on the desktop 
+    -> autocomplete (tab) helps with this in the IDE
+"""
+
+f = Path().home().joinpath("Desktop").joinpath("index.html") #f (the file path)
+f.write_text(html)
 # -> write to the file
+
+"""
+    -> he is going through what happens when we run the code 
+        -> it imports modules
+        -> makes two requests, to two different APIS
+            -> image and quotes
+        -> extracts the information we want from the APIs   
+            -> image URL and quote
+        -> then creating a new file / path object
+        -> this creates an index.html file in the desktop
+        -> running this in Safari shows the quote and dog images we pulled from the APIs
+            -> the image is in the same size we pulled from the internet
+            -> running the Python again makes different requests and populates the webpage with new information 
+            -> we can make the string uppercase in the html file
+        -> we can also restrict the image size 
+            -> running and reloading this will change the webpage appearance 
+            -> this can be done without CSS
+        -> this is intermetiate Python  
+            -> auto-generating a webpage
+            -> OOP <- next 
+                -> what objects are 
+                -> creating our own objects  
+"""
 
 
