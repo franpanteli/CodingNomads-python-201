@@ -1,5 +1,7 @@
 import random
 import requests
+import json
+from pathlib import Path
 
 # GAME SETUP
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,6 +96,12 @@ def fight(opponent, required_item=None):
     roll = random.randint(1, 6)
     if roll >= 3:
         print(f"You rolled a {roll} and defeated the {opponent}!")
+
+        #call an API for a randomly generated dog image if the user wins (this url is their prize)
+        if internet_status == "y": #they have to have an internet connection for this API call to work
+            img_url = dict(requests.get("https://dog.ceo/api/breeds/image/random").json())["message"]  # a string
+            print(f"Congratulations, your prize is a randomly generated dog image. This can be collected at: {img_url}")
+
         log_status(f"Rolled {roll} and defeated the {opponent}.") #create a log
         return True
     else:

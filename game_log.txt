@@ -1,0 +1,59 @@
+Player Bomsalseels has entered the game.
+Found a sword.
+Picked up a sword.
+Current inventory: ['sword']
+Encountered a dragon.
+Encountered a dragon.
+Rolled 4 and defeated the dragon.
+Current inventory: ['sword']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 6 and defeated the goblin.
+Current inventory: ['sword']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 6 and defeated the goblin.
+Current inventory: ['sword']
+Encountered a dragon.
+Encountered a dragon.
+Rolled 4 and defeated the dragon.
+Current inventory: ['sword']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 5 and defeated the goblin.
+Current inventory: ['sword']
+Encountered a dragon.
+Encountered a dragon.
+Rolled 3 and defeated the dragon.
+Current inventory: ['sword']
+Found a shield.
+Picked up a shield.
+Current inventory: ['sword', 'shield']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 4 and defeated the goblin.
+Current inventory: ['sword', 'shield']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 5 and defeated the goblin.
+Current inventory: ['sword', 'shield']
+Encountered a dragon.
+Encountered a dragon.
+Rolled 5 and defeated the dragon.
+Current inventory: ['sword', 'shield']
+Found a sword.
+Picked up a sword.
+Current inventory: ['sword', 'shield', 'sword']
+Encountered a dragon.
+Encountered a dragon.
+Rolled 1 and was defeated by the dragon.
+Player lost all inventory items.
+Current inventory: []
+Player Mousaiglacoap has entered the game.
+Found a sword.
+Picked up a sword.
+Current inventory: ['sword']
+Encountered a goblin.
+Encountered a goblin.
+Rolled 4 and defeated the goblin.
+Current inventory: ['sword']
