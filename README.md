@@ -1,27 +1,78 @@
 # Python 201 - Procedural Programming
 
-These are the exercise labs for the second module of your CodingNomads Python Programming course.
+Welcome to **Python 201 - Procedural Programming**, a repository designed to help learners deepen their understanding of Python through procedural programming concepts, debugging exercises, and hands-on labs.
 
-You should find this document after downloading the repository. This folder contains **your own copy** of all the labs that you'll work with and learn from. Complete the exercises locally on your computer in your text editor or IDE.
+## Table of Contents
+- [Course Overview](#course-overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Exercises & Labs](#exercises--labs)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Use GitHub For Feedback
+## Course Overview
+This repository is part of a Python learning track that focuses on **procedural programming**, building on the basics of Python syntax and data types. The goal is to provide learners with practical experience in:
+- Writing and organizing Python functions
+- Implementing loops and conditional logic
+- Using modules and packages effectively
+- Debugging and testing Python programs
+- Solving real-world programming problems
 
-After you've learned about Git and GitHub, you can add a new remote to your labs folder and point it to a fresh GitHub repository on your own GitHub account.
+## Prerequisites
+Before using this repository, you should have:
+- Basic knowledge of Python (Python 101)
+- Python 3.x installed on your system
+- Familiarity with using a terminal or command prompt
 
-Push your work there, and inform [your mentor](https://codingnomads.co/online-coding-bootcamp-mentorship) through chat or email if you want their feedback on any of the exercises. Even if you aren't working with a mentor, you can link to the code files you want to discuss in the [CodingNomads Forum](https://forum.codingnomads.co/). GitHub is built for collaboration, so it's a helpful tool in all of this.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/Python-201-Procedural-Programming.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Python-201-Procedural-Programming
+   ```
+3. (Optional) Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
+   ```
 
-## Contribute
+## Usage
+- Open the `.py` files in your preferred code editor.
+- Run the scripts using:
+  ```bash
+  python filename.py
+  ```
+- Follow the instructions in each lab or exercise to practice procedural programming concepts.
 
-There is always room for improvement, and as a budding software developer, learning to contribute to a project is a great first step to practice remote collaboration and learn about open-source software development practices.
+## Exercises & Labs
+- **08_debugging**: Debugging exercises to improve code troubleshooting skills.
+- **08_labs**: Hands-on labs that apply procedural programming concepts.
+- **09_functions**: Function creation, parameter handling, and modular code.
+- **10_file_io**: Working with files for reading and writing data.
+- **11_project**: Apply learned skills in a larger project.
 
-CodingNomads appreciates Pull Requests. If you **find a typo**, or a **mistake in the code**, or if you want to **add an exercise** of your own for other students to learn from, you can suggest these improvements to the original repository.
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.
 
-![CodingNomads Logo](https://codingnomads.co/wp-content/uploads/2018/08/CN_Logo_Retina.png)
+## License
+This repository is licensed under the MIT License. See `LICENSE` for details.
 
-If you don't yet know what that means, no worries! You can come back later,
-or study up now using the links below:
-
-- [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/)
-- [Create a pull request](https://help.github.com/articles/about-pull-requests/)
-
-Keep learning! :)
