@@ -7,9 +7,9 @@ This repository contains my coursework for **[Python 201 - Procedural Programmin
 
 ## Table of Contents
 - [Repository Overview](#repository-overview)
+- [Concepts Covered](#concepts-covered)
 - [Prerequisites](#prerequisites)
 - [Exercises & Labs](#exercises--labs)
-- [Concepts Covered](#concepts-covered)
 - [Projects](#projects)
 - [To Clone This Repository](#to-clone-this-repository)
   
