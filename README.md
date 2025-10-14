@@ -1,53 +1,34 @@
 # Python 201 - Procedural Programming
 
-Welcome to **Python 201 - Procedural Programming**, a repository designed to help learners deepen their understanding of Python through procedural programming concepts, debugging exercises, and hands-on labs.
+## Repository Overview
+This repository contains my coursework for **[Python 201 - Procedural Programming](https://codingnomads.com/course/python-programming-201)**, the second module in the **[Python Web Development Career Track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp)** by [CodingNomads](https://codingnomads.com/). This course was designed to help learners deepen their understanding of Python through procedural programming concepts, debugging, and API integration. This included multiple projects and labs, including SQLAlchemy, API integration, and the http `requests` module. 
+
+---
 
 ## Table of Contents
-- [Course Overview](#course-overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Repository Overview](#repository--overview)
+- [Prerequisites](#table--of--contents)
 - [Exercises & Labs](#exercises--labs)
-- [Contributing](#contributing)
-- [License](#license)
 
-## Course Overview
-This repository is part of a Python learning track that focuses on **procedural programming**, building on the basics of Python syntax and data types. The goal is to provide learners with practical experience in:
-- Writing and organizing Python functions
-- Implementing loops and conditional logic
-- Using modules and packages effectively
-- Debugging and testing Python programs
-- Solving real-world programming problems
+---
+
+## Concepts covered 
+The following Python skills were acquired when completing this course:
+- Functions: arguments, return values, and scope 
+- Advanced data types: tuples, lists, sets, and dictionaries
+- File input/output and managing paths effectively
+- Building modules and packages 
+- Dependency management with virtual environments 
+- Debugging programs using IDE features, Python PDB, web-pdb and pudb modules  
+- Database integration with SQLAlchemy
+- REST API integration with the Python `requests` package 
+
+---
 
 ## Prerequisites
-Before using this repository, you should have:
-- Basic knowledge of Python (Python 101)
-- Python 3.x installed on your system
-- Familiarity with using a terminal or command prompt
+The Python 101 course was a prerequisite for this course. A version of Python above 3.0 was required to be installed for sections on its pdb debugger and those including virtual environments. 
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Python-201-Procedural-Programming.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Python-201-Procedural-Programming
-   ```
-3. (Optional) Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/macOS
-   venv\Scripts\activate     # Windows
-   ```
-
-## Usage
-- Open the `.py` files in your preferred code editor.
-- Run the scripts using:
-  ```bash
-  python filename.py
-  ```
-- Follow the instructions in each lab or exercise to practice procedural programming concepts.
+---
 
 ## Exercises & Labs
 - **08_debugging**: Debugging exercises to improve code troubleshooting skills.
@@ -56,23 +37,12 @@ Before using this repository, you should have:
 - **10_file_io**: Working with files for reading and writing data.
 - **11_project**: Apply learned skills in a larger project.
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit:
-   ```bash
-   git commit -m "Add feature description"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request.
+---
 
-## License
-This repository is licensed under the MIT License. See `LICENSE` for details.
+## Projects
 
+---
+
+## To Clone This Repository
+```bash
+git clone https://github.com/franpanteli/CodingNomads-python-201.git
