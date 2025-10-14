@@ -60,7 +60,6 @@ One directory was created for each module in the course, from modules two to ten
   - [08_labs](labs/resources/08_debugging/08_labs)
 - [09 Integrating APIs](labs/resources/09_Integrating_APIs)
 - [10 Next Steps](labs/resources/10_Next_Steps)
-  - [Recap_Python_201_Webpage_Notes.py](labs/resources/10_Next_Steps/Recap_Python_201_Webpage_Notes.py)
 
 ---
 
