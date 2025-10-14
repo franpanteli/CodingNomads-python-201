@@ -66,36 +66,18 @@ One directory was created for each module in the course, from modules two to ten
 ## Projects
 
 - **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: Expands a title-case function into a command-line interface programme that generates “Crash Blossoms” style headlines. Users can input text, and the programme capitalises it according to headline conventions, repeatedly prompting for new input. This project revisits function creation and user input handling while demonstrating practical string manipulation.  
-    **Files:**  
-    - [crashblossoms.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/Crash_Blossoms_CLI/crashblossoms.py)  
-    - [Python_Project_Crash_Blosssoms_video_notes.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/Crash_Blossoms_CLI/Python_Project_Crash_Blosssoms_video_notes.py)  
 
 - **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: Integrates multiple APIs to automatically fetch data and generate a simple HTML page. The project demonstrates fetching dog images and quotes, parsing JSON responses, and dynamically generating HTML content. It also teaches creating virtual environments and using Python’s requests module safely.  
-    **Files:**  
-    - [website.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools)/website.py)  
-    - [(task)-barking-shibes.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools)/(task)-barking-shibes.py)  
 
 - **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: Implements a complete command-line rock-paper-scissors game. Users input a number to represent their hand, while the computer generates a random choice. The programme compares the selections, prints both hands, and announces the winner. This project reinforces understanding of game logic and decision-making in Python.  
-    **Files:**  
-    - [Rock_Paper_Scissors_Game.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/Rock_Paper_Scissors_Game/Rock_Paper_Scissors_Game.py)  
 
 - **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: Analyses file types on the desktop over time, creating a SQL-like summary of file counts and types. The main script counts files, moves frequent file types into organised folders, and appends timestamped summaries to a database file. The companion Data_Analysis.py script reads these summaries, calculates statistics, and identifies trends such as the most common file type or the busiest day.  
-    **Files:**  
-    - [file_counter.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/file_counter/after_module_07/file_counter.py)  
-    - [Data_Analysis.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/file_counter/Data_Analysis.py)  
-    - [Desktop file summary.sql](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/file_counter/after_module_07/Desktop%20file%20summary.sql)  
 
 - **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: Recreates Python’s built-in enumerate() function to demonstrate iteration with indices. The project contains several scripts showing alternative ways to iterate over lists, including using range(), for loops, and a custom enumerate function. It emphasises understanding of tuples, indexing, and iteration logic.  
-    **Files:**  
-    - [my_enumerate.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/making_the_enumerate_function.py/my_enumerate.py)  
-    - [for_loops.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/making_the_enumerate_function.py/for_loops.py)  
-    - [range_length.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/making_the_enumerate_function.py/range_length.py)  
 
 - **[Dungeons and Dragons Game 4.0 with APIs](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/dungeons_and_dragon_game_4.0_with_APIs)**: A Dungeons and Dragons-inspired command-line game enhanced by API integration. The game incorporates external data to enrich gameplay, including generating characters and scenarios dynamically. This project combines advanced procedural programming with practical API usage.  
-    **Files:** *(links to specific files within this project can be added if needed)*  
 
 - **[API Name Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/api-name-game.py)**: A command-line interface game that fetches names or other content from an API and interacts with the user. Demonstrates how external data can be manipulated and used within a Python programme to create dynamic and interactive experiences.  
-    **Files:** [api-name-game.py](https://github.com/franpanteli/CodingNomads-python-201/blob/main/labs/projects/api-name-game.py)  
 
 ---
 
