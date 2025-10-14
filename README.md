@@ -7,6 +7,7 @@ This repository contains my coursework for **[Python 201 - Procedural Programmin
 
 ## Table of Contents
 - [Repository Overview](#repository-overview)
+- [Table of Contents](#table-of-contents)
 - [Concepts Covered](#concepts-covered)
 - [Prerequisites](#prerequisites)
 - [Exercises & Labs](#exercises--labs)
@@ -15,7 +16,7 @@ This repository contains my coursework for **[Python 201 - Procedural Programmin
   
 ---
 
-## Concepts covered 
+## Concepts Covered 
 The following Python skills were acquired when completing this course:
 - Functions: arguments, return values, and scope 
 - Advanced data types: tuples, lists, sets, and dictionaries
