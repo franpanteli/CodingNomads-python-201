@@ -93,11 +93,29 @@ function documentation
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## API Capstone Project
 
-The [API Capstone Project](https://github.com/franpanteli/CodingNomads-python-101-capstone/tree/main) builds on the original Dungeons and Dragons command-line game created during the [Python 101 – Introduction to Python](https://github.com/franpanteli/CodingNomads-python-101-capstone) course. Version 4.0 of the project was developed as part of the Python 201 – Procedural Programming course and introduces external API integration to extend the game’s functionality and interactivity.
-
-[View the project file – dungeons_and_dragon_game_4.0.py](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py) 
+The capstone project in the first course in this career track was a Dungeons and Dragons CLI-based game. This code was refactored thrice in this course, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration via `HTTP` `GET` requests on two occasions.  
+. The repository containing all versions of this course is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, built as the capstone project for this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
 
 ### Project Overview
 This version enhances the previous iterations of the CLI-based role-playing game by introducing two APIs:
@@ -110,22 +128,37 @@ This version enhances the previous iterations of the CLI-based role-playing game
 
 The game also features an event logging system, which records the player’s progress, choices, encounters, and outcomes in a text file called `game_log.txt`. This is achieved using the `log_status()` function, which writes timestamped messages to the log file each time an important event occurs.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Gameplay Summary
-- The player navigates through rooms (left, right, forward, or back), discovering items such as a sword or shield
-- Battles occur against opponents including dragons and goblins, with outcomes determined by a randomised dice roll  
-- Winning or losing affects the player’s inventory and is recorded in the game log  
-- The game continues in a loop until the player chooses to exit
+- The player navigates through four rooms (left, right, forward, or back). As they do so, they can discover items, such as a sword or shield 
+- The user's inventory is recorded via a game log 
+- The user battles opponents such as dragons and goblins, with outcomes determined by a combination of weapons inventory status and a randomised dice roll
+- Winning or losing a battle affects the player’s inventory 
+- The game continues using, a while loop until the player chooses to exit
 
-### Technologies and Concepts Applied
-- Procedural programming and function design
+### Concepts Applied
+- Procedural programming with function design
 - File I/O, using the `open()` function in append mode to record game events  
-- API integration with the `requests` module  
-- Randomisation using the `random` module  
-- Error handling and user input validation  
-- Persistent data logging for game history tracking  
-
-### Repository Link
-The complete source code for this capstone project, including previous versions (1.0 – 3.0), is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone).
+- API integration, with the `requests` module  
+- Randomisation, using the `random` module
+- Game history tracking, via data logging   
 
 ---
 
