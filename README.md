@@ -9,7 +9,7 @@ This repository contains my coursework for [Python 201 - Procedural Programming]
 - [Repository Overview](#repository-overview)
 - [Table of Contents](#table-of-contents)
 - [Concepts Covered](#concepts-covered)
-- [Prerequisites](#prerequisites)
+- [Course Prerequisites](#prerequisites)
 - [Exercises & Labs](#exercises--labs)
 - [Projects](#projects)
 - [API Capstone Project](#api-capstone-project)
@@ -30,7 +30,7 @@ The following Python skills were acquired when completing this course:
 
 ---
 
-## Prerequisites
+## Course Prerequisites
 The [CodingNomads Python 101 course](https://github.com/franpanteli/CodingNomads-python-101) was a prerequisite for this. Other prerequisites included a Python version above 3.0 to be installed, for the completion of its pdb debugger and virtual environment sections.
 
 ---
