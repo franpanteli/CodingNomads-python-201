@@ -65,30 +65,30 @@ One directory was created for each module in the course, from modules two to ten
 
 ## Projects
 
-- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: this project was the result of following a Crashblossoms CLI tutorial in the course. This leveraged a title-case
-function, to generate “Crash Blossom”-style headlines. This repeatedly asked user for input text, which was
+- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: this project was the result of following a Crash Blossoms CLI tutorial in the course. This leveraged a title-case
+function to generate “Crash Blossom”-style headlines. This repeatedly asked the user for input text, which was
 capitalised according to headline conventions 
 
-- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: this project (webpage.py) used `http` GET requests, to retrieve a randomly generated dog image url and famous
-quote. These were parsed into an html file, outputted onto the user’s desktop. These APIs were selected due to their
-lack of key requirements, high potential use cases and readable documentation. In the case that too many API
-requests were made, it was recommended to use a VPN. When ran in the browser, the html file this project
-generated contained a random famous quote and dog image  
+- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: this project (webpage.py) used `HTTP` GET requests to retrieve a randomly generated dog image url a and famous
+quote. These were parsed into an HTML file, outputted to the user’s desktop. These APIs were selected due to their
+lack of key requirements, high potential use cases, and readable documentation. In the case that too many API
+requests were made, it was recommended to use a VPN. When run in the browser, the HTML file this project
+generated contained a random famous quote and a dog image  
 
-- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: this is a CLI-based rock paper scissors game. Users input a number representing their hand and the computer
+- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: this is a CLI-based rock-paper-scissors game. Users input a number representing their hand, and the computer
 generates a random choice (its hand). The `determine_winner()` function was then defined and called to compare
-these hands, print them to the console and output the winner  
+these hands, print them to the console, and output the winner  
 
 - **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: the first purpose of this project was to analyse desktop file types. This was implemented by outputting an SQL file
 to summarise desktop file counts and types. The Data_Analysis.py file outputted summary statistics of this file,
 such as the most common desktop file type. The second purpose of this project was to move desktop files of the
-same type, that occurred in a quantity of five or more, into their own desktop directory. This used the `pathlib`
-module, to iterate through desktop files and create relevant directories  
+same type that occurred in a quantity of five or more into their own desktop directory. This used the `pathlib`
+module to iterate through desktop files and create relevant directories  
 
 - **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: this project recreated the Python `enumerate()` function, implementing iteration with indices. This defined a
 function (`my_enumerate()`) which returned a list of tuples, that could be used in the same way as the native
-Python `enumerate()` function. This project includes three .py files, my_enumerate.py (containing the defined
-function) and for_loops.py and range_length.py. The latter two were written while working with the `enumerate()`
+Python `enumerate()` function. This project includes three .py files: my_enumerate.py (containing the defined
+function), for_loops.py, and range_length.py. The latter two were written while working with the `enumerate()`
 function documentation   
 
 ---
