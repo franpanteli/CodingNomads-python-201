@@ -93,57 +93,9 @@ function documentation
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## API Capstone Project
 
-The capstone project in the first course in this career track was a Dungeons and Dragons CLI-based game. This code was refactored thrice in this course, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration via `HTTP` `GET` requests on two occasions. The repository containing all versions of this course is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, built as the capstone project for this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
-
-### Project Overview
-This version enhances the previous iterations of the CLI-based role-playing game by introducing two APIs:
-
-1. Uzby API: when the player begins the game, they are prompted for their name and asked if they have a stable internet connection.  
-   If they do, the game makes an HTTP GET request to the Uzby API to generate a random stage name for the player, matching the length of the name they entered.
-
-2. Dog CEO API: when a player successfully defeats an opponent, a second API call is made to the Dog CEO API.  
-   The player is rewarded with a randomly generated dog image URL as their prize.
-
-The game also features an event logging system, which records the player’s progress, choices, encounters, and outcomes in a text file called `game_log.txt`. This is achieved using the `log_status()` function, which writes timestamped messages to the log file each time an important event occurs.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The capstone project in the first course of this career track was a CLI-based Dungeons and Dragons game. I refactored this project three times, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration, via `HTTP` `GET` requests, on two occasions. The repository containing all my versions of this project is [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, which I built for the capstone project in this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
 
 ### Gameplay Summary
 - The player navigates through four rooms (left, right, forward, or back). As they do so, they can discover items, such as a sword or shield 
@@ -151,6 +103,15 @@ The game also features an event logging system, which records the player’s pro
 - The user battles opponents such as dragons and goblins, with outcomes determined by a combination of weapons inventory status and a randomised dice roll
 - Winning or losing a battle affects the player’s inventory 
 - The game continues using, a while loop until the player chooses to exit
+
+### Project Overview
+Version 4.0 of this project integrates APIs twice:
+
+1. **The Uzby API:** when the player starts the game, they are asked if they have a stable internet connection. The status of this is stored in the `internet_status` variable. If they have a stable connection, an `HTTP` `GET` request is made to the Uzby API. This generates a random name (stage name), whose length is the same as the user's entered name. This name is printed in the CLI. For this to work, the minimum and maximum lengths of the random name requested from the API are both set to the length of the user's entered name
+
+2. **The Dog CEO API:** this API call implements a prize for the user, if they have a stable internet connection and defeat an opponent. This makes an `HTTP` `GET` request to generate a random dog image URL. This is presented to the user in the terminal, as a prize for defeating the opponent
+
+This project version uses the same event logging system developed in versions 1.0 - 3.0 of the game. This logs the user's progress, choices, encounters, and outcomes in the `game_log.txt` file. This leverages the `log_status()` function to write timestamped messages. 
 
 ### Concepts Applied
 - Procedural programming with function design
