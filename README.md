@@ -114,8 +114,7 @@ function documentation
 
 ## API Capstone Project
 
-The capstone project in the first course in this career track was a Dungeons and Dragons CLI-based game. This code was refactored thrice in this course, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration via `HTTP` `GET` requests on two occasions.  
-. The repository containing all versions of this course is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, built as the capstone project for this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
+The capstone project in the first course in this career track was a Dungeons and Dragons CLI-based game. This code was refactored thrice in this course, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration via `HTTP` `GET` requests on two occasions. The repository containing all versions of this course is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, built as the capstone project for this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
 
 ### Project Overview
 This version enhances the previous iterations of the CLI-based role-playing game by introducing two APIs:
