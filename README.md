@@ -65,57 +65,55 @@ One directory was created for each module in the course, from modules two to ten
 
 ## Projects
 
-- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: Expands a title-case function into a command-line interface programme that generates “Crash Blossoms” style headlines. Users can input text, and the programme capitalises it according to headline conventions, repeatedly prompting for new input. This project revisits function creation and user input handling while demonstrating practical string manipulation.  
+- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: expands a title-case function into a command-line interface programme that generates “Crash Blossoms” style headlines. Users can input text, and the programme capitalises it according to headline conventions, repeatedly prompting for new input. This project revisits function creation and user input handling while demonstrating practical string manipulation.  
 
-- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: Integrates multiple APIs to automatically fetch data and generate a simple HTML page. The project demonstrates fetching dog images and quotes, parsing JSON responses, and dynamically generating HTML content. It also teaches creating virtual environments and using Python’s requests module safely.  
+- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: integrates multiple APIs to automatically fetch data and generate a simple HTML page. The project demonstrates fetching dog images and quotes, parsing JSON responses, and dynamically generating HTML content. It also teaches creating virtual environments and using Python’s requests module safely.  
 
-- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: Implements a complete command-line rock-paper-scissors game. Users input a number to represent their hand, while the computer generates a random choice. The programme compares the selections, prints both hands, and announces the winner. This project reinforces understanding of game logic and decision-making in Python.  
+- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: implements a complete command-line rock-paper-scissors game. Users input a number to represent their hand, while the computer generates a random choice. The programme compares the selections, prints both hands, and announces the winner. This project reinforces understanding of game logic and decision-making in Python.  
 
-- **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: Analyses file types on the desktop over time, creating a SQL-like summary of file counts and types. The main script counts files, moves frequent file types into organised folders, and appends timestamped summaries to a database file. The companion Data_Analysis.py script reads these summaries, calculates statistics, and identifies trends such as the most common file type or the busiest day.  
+- **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: analyses file types on the desktop over time, creating a SQL-like summary of file counts and types. The main script counts files, moves frequent file types into organised folders, and appends timestamped summaries to a database file. The companion Data_Analysis.py script reads these summaries, calculates statistics, and identifies trends such as the most common file type or the busiest day.  
 
-- **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: Recreates Python’s built-in enumerate() function to demonstrate iteration with indices. The project contains several scripts showing alternative ways to iterate over lists, including using range(), for loops, and a custom enumerate function. It emphasises understanding of tuples, indexing, and iteration logic.  
+- **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: recreates Python’s built-in enumerate() function to demonstrate iteration with indices. The project contains several scripts showing alternative ways to iterate over lists, including using range(), for loops, and a custom enumerate function. It emphasises understanding of tuples, indexing, and iteration logic.  
 
-- **[Dungeons and Dragons Game 4.0 with APIs](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/dungeons_and_dragon_game_4.0_with_APIs)**: A Dungeons and Dragons-inspired command-line game enhanced by API integration. The game incorporates external data to enrich gameplay, including generating characters and scenarios dynamically. This project combines advanced procedural programming with practical API usage.  
+- **[Dungeons and Dragons Game 4.0 with APIs](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/dungeons_and_dragon_game_4.0_with_APIs)**: a Dungeons and Dragons-inspired command-line game enhanced by API integration. The game incorporates external data to enrich gameplay, including generating characters and scenarios dynamically. This project combines advanced procedural programming with practical API usage.  
 
-- **[API Name Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/api-name-game.py)**: A command-line interface game that fetches names or other content from an API and interacts with the user. Demonstrates how external data can be manipulated and used within a Python programme to create dynamic and interactive experiences.  
+- **[API Name Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/api-name-game.py)**: a command-line interface game that fetches names or other content from an API and interacts with the user. Demonstrates how external data can be manipulated and used within a Python programme to create dynamic and interactive experiences.  
 
 ---
 
 ## API Capstone Project
 
-The **[API Capstone Project](https://github.com/franpanteli/CodingNomads-python-101-capstone/tree/main)** builds on the original *Dungeons and Dragons* command-line game created during the **[Python 101 – Introduction to Python](https://github.com/franpanteli/CodingNomads-python-101-capstone)** course. Version 4.0 of the project was developed as part of the *Python 201 – Procedural Programming* course and introduces external API integration to extend the game’s functionality and interactivity.
+The [API Capstone Project](https://github.com/franpanteli/CodingNomads-python-101-capstone/tree/main) builds on the original Dungeons and Dragons command-line game created during the [Python 101 – Introduction to Python](https://github.com/franpanteli/CodingNomads-python-101-capstone) course. Version 4.0 of the project was developed as part of the Python 201 – Procedural Programming course and introduces external API integration to extend the game’s functionality and interactivity.
 
-**[View the project file – dungeons_and_dragon_game_4.0.py](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py)**  
+[View the project file – dungeons_and_dragon_game_4.0.py](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py) 
 
 ### Project Overview
 This version enhances the previous iterations of the CLI-based role-playing game by introducing two APIs:
 
-1. **Uzby API** – When the player begins the game, they are prompted for their name and asked if they have a stable internet connection.  
+1. Uzby API: when the player begins the game, they are prompted for their name and asked if they have a stable internet connection.  
    If they do, the game makes an HTTP GET request to the Uzby API to generate a random stage name for the player, matching the length of the name they entered.
 
-2. **Dog CEO API** – When a player successfully defeats an opponent, a second API call is made to the Dog CEO API.  
+2. Dog CEO API: when a player successfully defeats an opponent, a second API call is made to the Dog CEO API.  
    The player is rewarded with a randomly generated dog image URL as their prize.
 
-The game also features an **event logging system**, which records the player’s progress, choices, encounters, and outcomes in a text file called `game_log.txt`.  
-This is achieved using the `log_status()` function, which writes timestamped messages to the log file each time an important event occurs.
+The game also features an event logging system, which records the player’s progress, choices, encounters, and outcomes in a text file called `game_log.txt`. This is achieved using the `log_status()` function, which writes timestamped messages to the log file each time an important event occurs.
 
 ### Gameplay Summary
-- The player navigates through rooms (left, right, forward, or back), discovering items such as a sword or shield.  
-- Battles occur against opponents including dragons and goblins, with outcomes determined by a randomised dice roll.  
-- Winning or losing affects the player’s inventory and is recorded in the game log.  
-- The game continues in a loop until the player chooses to exit.
+- The player navigates through rooms (left, right, forward, or back), discovering items such as a sword or shield
+- Battles occur against opponents including dragons and goblins, with outcomes determined by a randomised dice roll  
+- Winning or losing affects the player’s inventory and is recorded in the game log  
+- The game continues in a loop until the player chooses to exit
 
 ### Technologies and Concepts Applied
-- **Procedural programming and function design**  
-- **File I/O**, using the `open()` function in append mode to record game events  
-- **API integration** with the `requests` module  
-- **Randomisation** using the `random` module  
-- **Error handling** and user input validation  
-- **Persistent data logging** for game history tracking  
+- Procedural programming and function design
+- File I/O, using the `open()` function in append mode to record game events  
+- API integration with the `requests` module  
+- Randomisation using the `random` module  
+- Error handling and user input validation  
+- Persistent data logging for game history tracking  
 
 ### Repository Link
-The complete source code for this capstone project, including previous versions (1.0 – 3.0), is available at:  
-👉 [https://github.com/franpanteli/CodingNomads-python-101-capstone](https://github.com/franpanteli/CodingNomads-python-101-capstone)
+The complete source code for this capstone project, including previous versions (1.0 – 3.0), is available [here](https://github.com/franpanteli/CodingNomads-python-101-capstone).
 
 ---
 
