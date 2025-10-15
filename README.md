@@ -65,19 +65,31 @@ One directory was created for each module in the course, from modules two to ten
 
 ## Projects
 
-- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: expands a title-case function into a command-line interface programme that generates “Crash Blossoms” style headlines. Users can input text, and the programme capitalises it according to headline conventions, repeatedly prompting for new input. This project revisits function creation and user input handling while demonstrating practical string manipulation.  
+- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: this project was the result of following a Crashblossoms CLI tutorial in the course. This leveraged a title-case
+function, to generate “Crash Blossom”-style headlines. This repeatedly asked user for input text, which was
+capitalised according to headline conventions 
 
-- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: integrates multiple APIs to automatically fetch data and generate a simple HTML page. The project demonstrates fetching dog images and quotes, parsing JSON responses, and dynamically generating HTML content. It also teaches creating virtual environments and using Python’s requests module safely.  
+- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: this project (webpage.py) used `http` GET requests, to retrieve a randomly generated dog image url and famous
+quote. These were parsed into an html file, outputted onto the user’s desktop. These APIs were selected due to their
+lack of key requirements, high potential use cases and readable documentation. In the case that too many API
+requests were made, it was recommended to use a VPN. When ran in the browser, the html file this project
+generated contained a random famous quote and dog image  
 
-- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: implements a complete command-line rock-paper-scissors game. Users input a number to represent their hand, while the computer generates a random choice. The programme compares the selections, prints both hands, and announces the winner. This project reinforces understanding of game logic and decision-making in Python.  
+- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: this is a CLI-based rock paper scissors game. Users input a number representing their hand and the computer
+generates a random choice (its hand). The `determine_winner()` function was then defined and called to compare
+these hands, print them to the console and output the winner  
 
-- **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: analyses file types on the desktop over time, creating a SQL-like summary of file counts and types. The main script counts files, moves frequent file types into organised folders, and appends timestamped summaries to a database file. The companion Data_Analysis.py script reads these summaries, calculates statistics, and identifies trends such as the most common file type or the busiest day.  
+- **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: the first purpose of this project was to analyse desktop file types. This was implemented by outputting an SQL file
+to summarise desktop file counts and types. The Data_Analysis.py file outputted summary statistics of this file,
+such as the most common desktop file type. The second purpose of this project was to move desktop files of the
+same type, that occurred in a quantity of five or more, into their own desktop directory. This used the `pathlib`
+module, to iterate through desktop files and create relevant directories  
 
-- **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: recreates Python’s built-in enumerate() function to demonstrate iteration with indices. The project contains several scripts showing alternative ways to iterate over lists, including using range(), for loops, and a custom enumerate function. It emphasises understanding of tuples, indexing, and iteration logic.  
-
-- **[Dungeons and Dragons Game 4.0 with APIs](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/dungeons_and_dragon_game_4.0_with_APIs)**: a Dungeons and Dragons-inspired command-line game enhanced by API integration. The game incorporates external data to enrich gameplay, including generating characters and scenarios dynamically. This project combines advanced procedural programming with practical API usage.  
-
-- **[API Name Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/api-name-game.py)**: a command-line interface game that fetches names or other content from an API and interacts with the user. Demonstrates how external data can be manipulated and used within a Python programme to create dynamic and interactive experiences.  
+- **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: this project recreated the Python `enumerate()` function, implementing iteration with indices. This defined a
+function (`my_enumerate()`) which returned a list of tuples, that could be used in the same way as the native
+Python `enumerate()` function. This project includes three .py files, my_enumerate.py (containing the defined
+function) and for_loops.py and range_length.py. The latter two were written while working with the `enumerate()`
+function documentation   
 
 ---
 
